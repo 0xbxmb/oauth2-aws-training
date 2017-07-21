@@ -1,9 +1,9 @@
 {
-  "secret": "put-your-value-here",
+  "secret": "meow",
   "credentials": {
-    "clientID": "put-your-value-here",
-    "clientSecret": "put-your-value-here",
-    "callbackURL": "put-your-value-here"
+    "clientID": "e71cb319-947e-4178-a70a-d742771b72e0",
+    "clientSecret": "6WmiAK5w7izxXvDmK9Z6zPR",
+    "callbackURL": "http://localhost/auth/outlook/callback"
   },
   "api": {
     "url": "https://outlook.office.com/api/v1.0",

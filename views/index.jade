@@ -3,13 +3,10 @@ extends layout
 block content
   h1= title
   if result
-    ul
-      for item in result
-        li
-            div
-                div= item.operation
-                div= item.amount
-                div= item.date
+      script.
+        var values=!{result};
+      #root
+      script(type='text/javascript', src='/javascripts/main.min.js')
   else
     p Welcome to expenses analytics
     div
