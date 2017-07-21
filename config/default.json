@@ -1,9 +1,9 @@
 {
-  "secret": "meow",
+  "secret": "",
   "credentials": {
-    "clientID": "e71cb319-947e-4178-a70a-d742771b72e0",
-    "clientSecret": "6WmiAK5w7izxXvDmK9Z6zPR",
-    "callbackURL": "http://localhost/auth/outlook/callback"
+    "clientID": "",
+    "clientSecret": "",
+    "callbackURL": ""
   },
   "api": {
     "url": "https://outlook.office.com/api/v1.0",

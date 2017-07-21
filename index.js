@@ -35,7 +35,7 @@ router.get('/', (req, res, next) => {
                 if (err) {
                     console.log(err);
                 } else {
-                    result = (response.body.value || []).map((item) => extractValues(item));
+                    result = (response.body.value || []).map((item) => JSON.stringify(extractValues(item)));
                 }
                 res.render('index', {
                     title: title,

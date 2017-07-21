@@ -4,7 +4,7 @@ block content
   h1= title
   if result
       script.
-        var values=!{result};
+        var values=[!{result}];
       #root
       script(type='text/javascript', src='/javascripts/main.min.js')
   else
